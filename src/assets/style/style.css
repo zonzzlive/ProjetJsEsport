@@ -1,0 +1,801 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Montserrat";
+}
+
+body{
+      background: #051F2B;
+}
+
+/* GENERAL PART */
+
+.btn{
+      padding: 10px;
+      border-radius: 3px;
+      border: none;
+      text-decoration: none;
+}
+
+.link{
+      color: white;
+      text-decoration: none;
+}
+/* APP PART */
+
+.lnstat-app{
+      padding-top: 100px;
+      color: white;
+}
+
+/* HEADER PART */
+
+header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      backdrop-filter: blur(2px);
+      height: 100px;
+      z-index: 999;
+}
+
+header > ul{
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 50px;
+}
+
+.menu-link{
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      transition: color 0.1s ease-in;
+      color: white;
+}
+
+.menu-link:hover{
+      color: blueviolet;
+}
+
+.lnstat-logo{
+      height: 75px;
+}
+
+.icon{
+      height: 60px;
+}
+
+.user-icon{
+      border-radius: 500px;
+}
+
+header > div{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+}
+
+.logout-btn{
+      background-color: rgb(243, 59, 59);
+      color: white;
+      cursor: pointer;
+      
+      transition: background-color 0.1s ease-in;
+}
+
+.logout-btn:hover{
+      background-color: rgb(163, 39, 39);
+}
+
+/** GAME PART **/
+
+.games{
+      width: 80%;
+      margin: 0 auto;
+      padding: 50px 0 100px 0;
+}
+
+/****** GAME CARD ******/
+.games > h1{
+      margin-bottom:60px;
+}
+
+.game-card-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 60px;
+      width: 100%;
+
+}
+
+.game-card{
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      height: 250px;
+      border: 3px solid white;
+      border-radius: 29px;
+      overflow: hidden;
+
+}
+
+.game-card > .left{
+      width: 40%;
+      height: 100%;
+      border-radius: 29px;
+      overflow: hidden;
+}
+
+.game-card > .left > img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.game-card > .right{
+      width: 60%;
+      padding: 20px;
+      
+}
+
+/** USER PART **/
+
+.user-form-container{
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: space-between;
+      height: calc(100vh - 100px);
+}
+.login-container, .signup-container{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 50px;
+}
+
+.login-form{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      align-items: center;
+      gap: 20px;
+      position: relative;
+}
+
+.input-form, .input-amount{
+      padding: 10px;
+      background: #0D2F3E;
+      border-radius: 3px;
+      border: none;
+      outline: none;
+      color: white;
+}
+
+.form-element{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 5px;
+}
+
+
+.login-btn{
+      margin-top: 50px;
+      min-width: 150px;
+      padding: 10px;
+      background-color: white;
+      color: #051F2B;
+      border: none;
+      border-radius: 3px;
+      width: 100%;
+}
+
+.separator{
+      width: 2px;
+      height: 200px;
+      background: #0D2F3E;
+}
+
+.error{
+      color: red;
+      font-size: 13px;
+      margin: 0;
+      
+}
+
+.user-container{
+      width: 80%;
+      margin: 0 auto;
+}
+
+.user-infos{
+      width: 100%;
+      display: flex;
+      gap: 15px;
+      margin-top: 100px;
+}
+
+.user-avatar{
+      width: 150px;
+}
+/** HOME PART **/
+
+.home {
+      margin: 0 auto;
+      width: 80%;
+      padding: 0 0 100px 0;
+
+}
+
+.header-home{
+      width: 100%;
+      display: flex;
+      justify-content: space-between; 
+}
+
+.header-home > .right{
+      width: 60%;
+}
+
+.header-home > .left{
+      width: 60%;
+}
+
+.header-home > .right > h1{
+      font-size: 60px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 35%;
+      transform: translate(-50%,-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+}
+
+.header-home > .left > img{
+      height: 95vh;
+      margin-top: -20px;
+}
+
+/** TEAMS, LEAGUES PART **/
+
+
+.teams, .leagues{
+      margin: 0 auto;
+      width: 80%;
+      padding: 50px 0 100px 0;
+}
+
+.header-teams, .header-leagues{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+}
+
+.header-teams > h1, .header-leagues > h1{
+      margin-bottom:60px;
+}
+
+.header-teams > form, .header-leagues > form{
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+}
+
+.icon-search{
+      height: 15px;
+}
+
+.search-btn{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+}
+
+.team-container, .league-container{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      column-gap: 60px;
+      row-gap: 60px;
+}
+
+.team-card, .league-card{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+      font-size: 20px;
+      text-align: center;
+}
+
+.team-card{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+      font-size: 20px;
+      text-align: center;
+}
+
+
+.team-card > div, .league-card > div{
+      width: 100%;
+      aspect-ratio: 1;
+      overflow: hidden;
+      text-overflow: clip;
+      position: relative;
+}
+
+.logo-team-game{
+      position: absolute;
+      width: 50px!important;
+      height: 50px!important;
+      bottom: 0;
+      right: 0;
+}
+
+.team-card > div > img, .league-card > div > img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+}
+
+
+
+
+/** UNIQUE TEAM, GAME LEAGUE PART **/
+.team-herobanner, .league-herobanner{
+      height: 100vh;
+      width: 100%;
+      background: aqua;
+      margin-top: -100px;
+      position: relative;
+      z-index: 0;
+}
+
+.team-background, .league-background{
+      width: 100%;
+      height: 100%;
+      position: relative;
+}
+
+.team-background > img, .league-background > img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.team-background > .overlay, .league-background > .overlay{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+}
+
+.team-infos{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+}
+
+.team-logo{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+}
+
+.team-logo > span{
+      font-size: 24px;
+      font-weight: 800;
+}
+
+.league-logo{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+}
+
+.league-matches-container{
+      width: 80%;
+      margin: 0 auto;
+
+}
+
+.league-name{
+      margin: 50px 0;
+}
+
+.team-logo > img, .league-logo > img{
+      width: 200px;
+}
+
+.players-presentation{
+      width: 80%;
+      margin: 0 auto;
+      padding: 50px 0;
+
+}
+
+.players-presentation > h1{
+      margin-bottom: 50px;
+}
+
+.players-container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+}
+
+/** PLAYER CARD **/
+.player-card{
+      display: flex;
+      flex-direction: column;
+      border: 2px solid white;
+      width: 100%;
+      border-radius: 20px;
+      overflow: hidden;
+}
+
+.player-image{
+      width: 100%;
+      overflow: hidden;
+      border-bottom: 2px solid white;
+      height: 300px;
+      
+}
+
+.player-image > img{
+      width: 100%;
+      height: 100%;
+      object-position: top center;
+      object-fit: cover;
+}
+
+.player-info{
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+}
+
+/** RANKING PART **/
+.ranking{
+      margin: 0 auto;
+      width: 80%;
+      padding: 50px 0 100px 0;
+}
+
+.ranking-container{
+      margin: 50px 0;
+}
+
+.ranking-top3{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+}
+
+.ranking-places{
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+      width: 100%;
+}
+
+.card-rank{
+      width: 100%;
+      height: 75px;
+      display: flex;
+      border: 3px solid white;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 20px;
+      padding: 0 40px;
+      
+}
+
+.card-rank h1, .card-rank h2{
+      font-size: 16px;
+}
+
+.card-rank-t{
+      width: 100%;
+      height: 90px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 20px;
+      padding: 0 80px;
+
+}
+
+.gold{
+      border: 3px solid gold;
+}
+
+
+.silver{
+      border: 3px solid silver;
+}
+
+.bronze{
+      border: 3px solid rgb(221, 138, 60);
+}
+
+/** MATCHES PART **/
+
+.matches{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+}
+
+.btn-past{
+      background-color: rgb(236, 50, 44);
+      color :white;
+}
+
+.btn-current{
+      background-color: rgb(62, 170, 80);
+      color :white;
+}
+
+.btn-upcoming{
+      background-color: rgb(41, 123, 245);
+      color :white;
+}
+
+.match-choice{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.match-btn{
+      display: flex;
+      gap: 10px;
+}
+
+.upcoming-matches > h1, .running-matches > h1, .past-matches > h1{
+      margin: 60px 0;
+}
+
+.matches-container{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding-bottom: 50px;
+}
+
+.match-card{
+      width: 100%;
+      height: 125px;
+      border-radius: 36px;
+      border: 3px solid #FFFFFF;
+      display: grid;
+      grid-template-columns: 1fr 2px 2fr 2px 1fr;
+      grid-auto-rows: 125px;
+}
+
+.match-card > .left{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+}
+
+.match-card > .center{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      height: 100%;
+      gap: 50px;
+
+}
+
+.team-name-match{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+.team-logo-match{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+}
+
+.team-logo-match > div{
+      height: 80%;
+      aspect-ratio: 1;
+}
+
+.team-logo-match > div >img{
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+}
+
+.match-card > .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+}
+
+.match-card .separator{
+      width: 2px;
+      height: 50%;
+      background-color: rgba(255, 255, 255, 0.2);
+      margin: auto 0;
+}
+
+.btn-bet{
+      background-color: white;
+      color: black;
+}
+
+/** UNIQUE MATCH **/
+
+.unique-match-container{
+      width: 80%;
+      margin: 0 auto;
+      padding: 50px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.unique-match-teams{
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 80%;
+}
+
+.unique-match-container > h2{
+      margin-bottom: 50px;
+}
+
+.team-one, .team-two{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+}
+
+.logo-team{
+      width: 200px;
+      aspect-ratio: 1;
+      overflow: hidden;
+}
+
+.logo-team > img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+}
+
+.match-bet{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+}
+
+
+
+.btn-bet-onmatch{
+      background-color: rgb(62, 170, 80);
+      color: white;
+}
+
+/** BET PART **/
+
+.bets{
+      width: 80%;
+      padding: 50px 0;
+      margin: 0 auto;
+}
+
+.btn-redirect{
+      background-color: white;
+      color: black;
+}
+
+.notconnected{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      width: 80%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+}
+
+.bets-card{
+      display: flex;
+      flex-direction: column;
+      border: 2px solid white;
+      border-radius: 10px;
+      width: 100%;
+      
+}
+
+.teams-bets{
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      padding: 10px;
+}
+
+.teams-bets > .team{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.teams-bets > .team > .team-logo{
+      height: 100px;
+      width: 100px;
+      overflow: hidden;
+}
+
+.teams-bets > .team > .team-logo > img{
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+}
+
+.bets-info{
+      padding: 10px;
+      border-top: 2px solid white;
+      display: flex;
+      flex-direction: column;
+}
+
+.bets-container{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+}

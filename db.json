@@ -1,0 +1,1122 @@
+{
+  "users": [
+    {
+      "email": "louison@louison",
+      "password": "$2a$10$GOaE3m/po8RIo1M4uxec/eLg.aUK3GZv13/9AVnRt5CORac64Sd/C",
+      "username": "louison",
+      "coins": 100,
+      "id": 1,
+      "avatar_url": "zonzz.png"
+    },
+    {
+      "email": "louison@lea",
+      "password": "$2a$10$vaaryiXdRuaZMzwWlpDQqu6ovQ335enelNBQffie92.zmGdwqHPZO",
+      "username": "qedadadqsd",
+      "coins": 300,
+      "id": 2,
+      "avatar_url": "vitality.jpg"
+    },
+    {
+      "email": "louison@la",
+      "password": "$2a$10$5G19nTSCovUFop0BKoKFKORMKhiexspMiVwpwQ92OtcHpc769EBWO",
+      "username": "sdqsdqsdqsd",
+      "coins": 260,
+      "id": 3,
+      "avatar_url": "vitality.jpg"
+    },
+    {
+      "email": "louison@laa",
+      "password": "$2a$10$SvPh06c/ftloDFoOA1RcFOntqHxQ68c5gO/MhgT9YNZyVV5jN92Ea",
+      "username": "sqsdqsdqdqdq",
+      "coins": 189,
+      "id": 4,
+      "avatar_url": "vitality.jpg"
+    },
+    {
+      "email": "louison@clery.fr",
+      "password": "$2a$10$NcTr6Ujbc2hiPbtOrJY0huCVBGJxkPrvGsPC7Sx/xErPltQbWZZIu",
+      "username": "zonzz",
+      "coins": 623,
+      "id": 5,
+      "avatar_url": "vitality.jpg"
+    },
+    {
+      "email": "clerylouisonmail@gmail.com",
+      "password": "$2a$10$uwpXEYlZ2nAL6wge.h4TDumLVqGRLwhSuvxl5txy5fNig.XaLx6LS",
+      "id": "ea727964-87ca-4073-80d3-5ab245b5117e",
+      "username": "louisonclery",
+      "coins": 9841,
+      "avatar_url": "vitality.jpg"
+    },
+    {
+      "email": "azerty@azerty",
+      "password": "$2a$10$lKi.inq5LVfQwpd6D1G5EOmyMuPj1Ko9x0Nm8UWw2vi3cI/7u0Dn.",
+      "username": "louison",
+      "coins": 651,
+      "id": 6,
+      "avatar_url": "vitality.jpg"
+    },
+    {
+      "email": "zonzz@zonzz",
+      "password": "$2a$10$5oGQaVOyMoF9iQz7bmsKZObv7gnXs61rRw.EOiYE.B6E35N8nnZ6m",
+      "id": "8293e47b-1892-4e5a-b5b6-3de70897a2c0",
+      "username": "zonzz",
+      "coins": 100,
+      "avatar_url": "vitality.jpg"
+    },
+    {
+      "email": "leo@leo.fr",
+      "password": "$2a$10$I0Ms9Ok8ZzaJPQd0SMOXN.OSqxzhi/bai1/CUZuh1j84WboUt.ABC",
+      "id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "username": "leoledev",
+      "coins": 380,
+      "avatar_url": "vitality.jpg"
+    },
+    {
+      "email": "test@test.fr",
+      "password": "$2a$10$kK7pG5NowX0Ib3UT2b0dwuJn16rjH1q94lfGtujZBqi5bfasxonq.",
+      "id": "e9d8824f-38a3-4d56-8327-4596ee002291",
+      "username": "tester",
+      "coins": 85,
+      "avatar_url": "vitality.jpg"
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "name": "Valorant",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, nisi, eligendi sapiente sed veritatis expedita molestias reiciendis fugiat, commodi rerum aspernatur? Ut voluptatibus, blanditiis magnam deserunt cupiditate repellat sequi necessitatibus! Lorem, ipsum dolor",
+      "image_url": "valorant.jpg",
+      "slug": "valorant"
+    },
+    {
+      "id": 2,
+      "name": "Rocket League",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, nisi, eligendi sapiente sed veritatis expedita molestias reiciendis fugiat, commodi rerum aspernatur? Ut voluptatibus, blanditiis magnam deserunt cupiditate repellat sequi necessitatibus! Lorem, ipsum dolor",
+      "image_url": "rl.jpg",
+      "slug": "rl"
+    },
+    {
+      "id": 3,
+      "name": "CS:GO",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, nisi, eligendi sapiente sed veritatis expedita molestias reiciendis fugiat, commodi rerum aspernatur? Ut voluptatibus, blanditiis magnam deserunt cupiditate repellat sequi necessitatibus! Lorem, ipsum dolor",
+      "image_url": "cs-go.jpg",
+      "slug": "cs-go"
+    },
+    {
+      "id": 4,
+      "name": "Rainbox Six Siege",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, nisi, eligendi sapiente sed veritatis expedita molestias reiciendis fugiat, commodi rerum aspernatur? Ut voluptatibus, blanditiis magnam deserunt cupiditate repellat sequi necessitatibus! Lorem, ipsum dolor",
+      "image_url": "r6-siege.jpg",
+      "slug": "r6-siege"
+    }
+  ],
+  "bets": [
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 50,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "id": 1
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 100000,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "id": 2
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 100,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "id": 3
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 100,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "id": 4
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 100,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "id": 5
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 100,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "id": 6
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 10,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "id": 7
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 10,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "id": 8
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 10,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "id": 9
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 10,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "finish",
+      "win": false,
+      "winner_id": 129409,
+      "id": 10
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 20,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "winner_id": 129409,
+      "id": 11
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625751,
+      "amount": 20,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "TP",
+            "id": 129409,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129409/190px_team_phantasma_teamcard.png",
+            "location": null,
+            "modified_at": "2022-03-12T10:13:21Z",
+            "name": "Team Phantasma",
+            "slug": "team-phantasma"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "HIVE",
+            "id": 130119,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130119/gaming_hivelogo_square.png",
+            "location": "GR",
+            "modified_at": "2022-03-12T10:51:47Z",
+            "name": "Hive Athens",
+            "slug": "hive-athens"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "winner_id": 129409,
+      "id": 12
+    },
+    {
+      "user_id": "e9d8824f-38a3-4d56-8327-4596ee002291",
+      "match_id": 625775,
+      "amount": 15,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 130564,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130564/600px_falcons_esports_full_2022_allmode.png",
+            "location": "SA",
+            "modified_at": "2022-03-12T21:27:21Z",
+            "name": "Falcons Esports",
+            "slug": "falcons-esports"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 126217,
+            "image_url": "https://cdn.pandascore.co/images/team/image/126217/ambush.png",
+            "location": "DK",
+            "modified_at": "2022-03-12T21:27:21Z",
+            "name": "Ambush",
+            "slug": "ambush"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "winner_id": 130564,
+      "id": 13
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625848,
+      "amount": 20,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 129365,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129365/t78932.png",
+            "location": "RO",
+            "modified_at": "2022-02-22T17:50:46Z",
+            "name": "OneTap",
+            "slug": "one-tap-gaming"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 129341,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129341/42px_levadia.png",
+            "location": null,
+            "modified_at": "2022-01-28T13:31:39Z",
+            "name": "Levadia",
+            "slug": "levadia"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "winner_id": 129365,
+      "id": 14
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625824,
+      "amount": 5,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 130526,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130526/109px_lausanne_sport_esports_lightmode.png",
+            "location": "",
+            "modified_at": "2022-03-02T10:54:05Z",
+            "name": "Lausanne-Sport Esports",
+            "slug": "lausanne-sport-esports"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 130524,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130524/186px_slnt_allmode.png",
+            "location": "",
+            "modified_at": "2022-03-03T22:21:29Z",
+            "name": "SLNT",
+            "slug": "slnt"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "winner_id": 130526,
+      "id": 15
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 625758,
+      "amount": 5,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 3241,
+            "image_url": "https://cdn.pandascore.co/images/team/image/3241/RENEGADES.png",
+            "location": "US",
+            "modified_at": "2022-03-05T13:57:18Z",
+            "name": "Renegades",
+            "slug": "renegades-cs-go"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 129388,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129388/105px_8_ballers_allmode.png",
+            "location": null,
+            "modified_at": "2022-03-10T11:03:08Z",
+            "name": "8Ballers",
+            "slug": "8ballers"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "winner_id": 3241,
+      "id": 16
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 621763,
+      "amount": 4,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "S9",
+            "id": 130359,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130359/sem9logo_profile.png",
+            "location": "MY",
+            "modified_at": "2022-02-18T11:55:06Z",
+            "name": "SEM9",
+            "slug": "sem9"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "JT",
+            "id": 228,
+            "image_url": "https://cdn.pandascore.co/images/team/image/228/j-team.png",
+            "location": "TW",
+            "modified_at": "2022-02-08T22:07:38Z",
+            "name": "J Team",
+            "slug": "j-team"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "finish",
+      "win": false,
+      "winner_id": 130359,
+      "id": 18
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 621763,
+      "amount": 2,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "S9",
+            "id": 130359,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130359/sem9logo_profile.png",
+            "location": "MY",
+            "modified_at": "2022-02-18T11:55:06Z",
+            "name": "SEM9",
+            "slug": "sem9"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "JT",
+            "id": 228,
+            "image_url": "https://cdn.pandascore.co/images/team/image/228/j-team.png",
+            "location": "TW",
+            "modified_at": "2022-02-08T22:07:38Z",
+            "name": "J Team",
+            "slug": "j-team"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "finish",
+      "win": false,
+      "winner_id": 130359,
+      "id": 19
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 621125,
+      "amount": 10,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "AXZ",
+            "id": 125064,
+            "image_url": "https://cdn.pandascore.co/images/team/image/125064/axiz-fpemv4d2.png",
+            "location": "JP",
+            "modified_at": "2022-03-02T12:18:13Z",
+            "name": "AXIZ",
+            "slug": "axiz"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "RJ",
+            "id": 651,
+            "image_url": "https://cdn.pandascore.co/images/team/image/651/rascal-jester-g32ay08v.png",
+            "location": "JP",
+            "modified_at": "2022-02-07T19:10:43Z",
+            "name": "Rascal Jester",
+            "slug": "rascal-jester"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "finish",
+      "win": false,
+      "winner_id": 125064,
+      "id": 20
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 621125,
+      "amount": 10,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "AXZ",
+            "id": 125064,
+            "image_url": "https://cdn.pandascore.co/images/team/image/125064/axiz-fpemv4d2.png",
+            "location": "JP",
+            "modified_at": "2022-03-02T12:18:13Z",
+            "name": "AXIZ",
+            "slug": "axiz"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "RJ",
+            "id": 651,
+            "image_url": "https://cdn.pandascore.co/images/team/image/651/rascal-jester-g32ay08v.png",
+            "location": "JP",
+            "modified_at": "2022-02-07T19:10:43Z",
+            "name": "Rascal Jester",
+            "slug": "rascal-jester"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "finish",
+      "win": false,
+      "winner_id": 125064,
+      "id": 21
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 621125,
+      "amount": 10,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "AXZ",
+            "id": 125064,
+            "image_url": "https://cdn.pandascore.co/images/team/image/125064/axiz-fpemv4d2.png",
+            "location": "JP",
+            "modified_at": "2022-03-02T12:18:13Z",
+            "name": "AXIZ",
+            "slug": "axiz"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "RJ",
+            "id": 651,
+            "image_url": "https://cdn.pandascore.co/images/team/image/651/rascal-jester-g32ay08v.png",
+            "location": "JP",
+            "modified_at": "2022-02-07T19:10:43Z",
+            "name": "Rascal Jester",
+            "slug": "rascal-jester"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "finish",
+      "win": true,
+      "winner_id": 651,
+      "id": 22
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 621126,
+      "amount": 10,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "V3",
+            "id": 1356,
+            "image_url": "https://cdn.pandascore.co/images/team/image/1356/image.png",
+            "location": "JP",
+            "modified_at": "2022-02-11T13:09:28Z",
+            "name": "V3 Esports",
+            "slug": "v3-esports"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "SG",
+            "id": 125063,
+            "image_url": "https://cdn.pandascore.co/images/team/image/125063/sengoku-gaming-gnat0l9c.png",
+            "location": "JP",
+            "modified_at": "2022-02-07T19:14:06Z",
+            "name": "Sengoku Gaming",
+            "slug": "sengoku-gaming"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "finish",
+      "win": true,
+      "winner_id": 125063,
+      "id": 23
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 621126,
+      "amount": 0,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "V3",
+            "id": 1356,
+            "image_url": "https://cdn.pandascore.co/images/team/image/1356/image.png",
+            "location": "JP",
+            "modified_at": "2022-02-11T13:09:28Z",
+            "name": "V3 Esports",
+            "slug": "v3-esports"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "SG",
+            "id": 125063,
+            "image_url": "https://cdn.pandascore.co/images/team/image/125063/sengoku-gaming-gnat0l9c.png",
+            "location": "JP",
+            "modified_at": "2022-02-07T19:14:06Z",
+            "name": "Sengoku Gaming",
+            "slug": "sengoku-gaming"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "finish",
+      "win": false,
+      "winner_id": 1356,
+      "id": 24
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 621126,
+      "amount": 10,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "V3",
+            "id": 1356,
+            "image_url": "https://cdn.pandascore.co/images/team/image/1356/image.png",
+            "location": "JP",
+            "modified_at": "2022-02-11T13:09:28Z",
+            "name": "V3 Esports",
+            "slug": "v3-esports"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "SG",
+            "id": 125063,
+            "image_url": "https://cdn.pandascore.co/images/team/image/125063/sengoku-gaming-gnat0l9c.png",
+            "location": "JP",
+            "modified_at": "2022-02-07T19:14:06Z",
+            "name": "Sengoku Gaming",
+            "slug": "sengoku-gaming"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "finish",
+      "win": false,
+      "winner_id": 1356,
+      "id": 25
+    },
+    {
+      "user_id": "51f6c964-7f0d-4e52-95e1-352fb206397f",
+      "match_id": 621763,
+      "amount": 190,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": "S9",
+            "id": 130359,
+            "image_url": "https://cdn.pandascore.co/images/team/image/130359/sem9logo_profile.png",
+            "location": "MY",
+            "modified_at": "2022-02-18T11:55:06Z",
+            "name": "SEM9",
+            "slug": "sem9"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": "JT",
+            "id": 228,
+            "image_url": "https://cdn.pandascore.co/images/team/image/228/j-team.png",
+            "location": "TW",
+            "modified_at": "2022-02-08T22:07:38Z",
+            "name": "J Team",
+            "slug": "j-team"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "finish",
+      "win": true,
+      "winner_id": 228,
+      "id": 26
+    },
+    {
+      "user_id": 1,
+      "match_id": 625848,
+      "amount": 100,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 129365,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129365/t78932.png",
+            "location": "RO",
+            "modified_at": "2022-03-13T13:13:25Z",
+            "name": "OneTap",
+            "slug": "one-tap-gaming"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 129341,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129341/42px_levadia.png",
+            "location": null,
+            "modified_at": "2022-03-13T13:13:25Z",
+            "name": "Levadia",
+            "slug": "levadia"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "winner_id": 129341,
+      "id": 27
+    },
+    {
+      "user_id": 1,
+      "match_id": 625848,
+      "amount": 100,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 129365,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129365/t78932.png",
+            "location": "RO",
+            "modified_at": "2022-03-13T13:13:25Z",
+            "name": "OneTap",
+            "slug": "one-tap-gaming"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 129341,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129341/42px_levadia.png",
+            "location": null,
+            "modified_at": "2022-03-13T13:13:25Z",
+            "name": "Levadia",
+            "slug": "levadia"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "winner_id": 129365,
+      "id": 28
+    },
+    {
+      "user_id": 1,
+      "match_id": 625758,
+      "amount": 100,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 3241,
+            "image_url": "https://cdn.pandascore.co/images/team/image/3241/RENEGADES.png",
+            "location": "US",
+            "modified_at": "2022-03-05T13:57:18Z",
+            "name": "Renegades",
+            "slug": "renegades-cs-go"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 129388,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129388/105px_8_ballers_allmode.png",
+            "location": null,
+            "modified_at": "2022-03-10T11:03:08Z",
+            "name": "8Ballers",
+            "slug": "8ballers"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "winner_id": 3241,
+      "id": 29
+    },
+    {
+      "user_id": 1,
+      "match_id": 625758,
+      "amount": 100,
+      "opponents": [
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 3241,
+            "image_url": "https://cdn.pandascore.co/images/team/image/3241/RENEGADES.png",
+            "location": "US",
+            "modified_at": "2022-03-05T13:57:18Z",
+            "name": "Renegades",
+            "slug": "renegades-cs-go"
+          },
+          "type": "Team"
+        },
+        {
+          "opponent": {
+            "acronym": null,
+            "id": 129388,
+            "image_url": "https://cdn.pandascore.co/images/team/image/129388/105px_8_ballers_allmode.png",
+            "location": null,
+            "modified_at": "2022-03-10T11:03:08Z",
+            "name": "8Ballers",
+            "slug": "8ballers"
+          },
+          "type": "Team"
+        }
+      ],
+      "status": "not_finish",
+      "win": false,
+      "winner_id": 129388,
+      "id": 30
+    }
+  ]
+}
