@@ -85,7 +85,7 @@ export default function Teams(){
                   
                   <div className="team-container">
                         {teams.length !== 0 ? teams.map(el=><TeamCard key={el.id} game={el.current_videogame.slug} slugTeam={el.slug} name={el.name} imageUrl={el.image_url}/>) : (formData != "" ? "Pas de données" : "Loading")}
-                        
+                       
                   </div>
                   
             </div>
