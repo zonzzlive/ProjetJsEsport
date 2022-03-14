@@ -2,7 +2,7 @@
 
 # 🤑 - Projet LNSTAT
 
-Cette application React est un projet réalisé dans le cadre du cours ... où nous avons dû réalisé une application de paris sur des match esportif.
+Cette application React est un projet réalisé dans le cadre du cours NFE119 où nous avons dû réalisé une application de paris sur des match esportif.
 
 # 🐁 - Utiliser le projet
 
