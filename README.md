@@ -24,7 +24,7 @@ Vous pouvez télécharger le projet sur votre machine, pour cela il vous faudra
 ### 🆕 - Initialiser le projet
 
 ```bash
-git clone https://github.com/leodlplq/lnstat
+git clone https://github.com/zonzzlive/ProjetJsEsport.git
 cd lnstat
 npm install
 ```
